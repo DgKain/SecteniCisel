@@ -15,6 +15,11 @@ namespace SecteniCisel
 	/// </summary>
 	public class Pocty
 	{
+        /// <summary>
+        /// tato metoda secte X cisel po sobe
+        /// </summary>
+        /// <param name="pocetCisel">uzivatelem zadany pocet scitanych cisel v rozmezi od 1 do 100</param>
+        /// <returns>soucet prvnich cisel od 1 do X</returns>
 		public int sectiCisla(int pocetCisel)
 		{
 			int soucetCisel = 0;
