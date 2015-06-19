@@ -76,6 +76,7 @@ namespace SecteniCisel
 						case '2':
 							opakovat = false;
 							vybranaSpravnaVolba = true;
+                            Console.Clear();
 							break;
 						default:
 							vybranaSpravnaVolba = false;
@@ -83,12 +84,8 @@ namespace SecteniCisel
 					}
 				}
 			}
-			
-			Console.WriteLine();
-			Console.WriteLine();
-			Console.WriteLine("Libovolnou klávesou ukončíte program...");
-			Console.ReadKey();
-			
+
+            Console.WriteLine();
 		}
 	}
 }
