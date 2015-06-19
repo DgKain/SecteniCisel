@@ -15,8 +15,7 @@ namespace SecteniCisel
 		public static void Main(string[] args)
 		{
 			Console.WriteLine("Vítejte v programu pro sečtení prvních X čísel od 1 do 100!");
-			Console.WriteLine("Program spustíte libovolnou klávesou...");
-			Console.ReadKey();
+            Console.WriteLine();
 			
 			Pocty vypocet = new Pocty();
 			
@@ -29,7 +28,6 @@ namespace SecteniCisel
 				opakovat = true;
 				vybranaSpravnaVolba = false;
 				
-				Console.Clear();
 				Console.Write("Zadejte prosím počet čísel od 1 do 100, které chcete sečíst: ");
 				
 				try
@@ -72,6 +70,7 @@ namespace SecteniCisel
 						case '1':
 							opakovat = true;
 							vybranaSpravnaVolba = true;
+                            Console.Clear();
 							break;
 						case '2':
 							opakovat = false;
@@ -85,7 +84,6 @@ namespace SecteniCisel
 				}
 			}
 
-            Console.WriteLine();
 		}
 	}
 }
