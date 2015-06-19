@@ -52,7 +52,7 @@ namespace SecteniCisel
 				{
 					Console.WriteLine("Nezadali jste číslo v platném rozsahu od 1 do 100!");
 					Console.WriteLine();
-					Console.WriteLine(ex);
+					Console.WriteLine(ex.Message);
 					Console.WriteLine();
 					Console.WriteLine("Pokračujte libovolnou klávesou...");
 					Console.ReadKey();
